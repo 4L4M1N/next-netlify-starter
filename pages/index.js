@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-
+import Image from 'next/image'
+import mypic from '../public/rasel.png'
 export default function Home() {
   return (
     <div className="container">
@@ -11,9 +12,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="We love our Sir!! Love you sir" />
+        <Header title="Happy Birthday from Sadika with ❤️ " />
+        <Image src="/rasel.png" width="500" height="400"></Image>
         <p className="description">
-          শিরায় শিরায় রক্ত  : আমরা স্যারের ভক্ত❤️
+          We also love you sir❤️
         </p>
       </main>
 
